@@ -1,0 +1,342 @@
+*{
+	margin:0;
+	padding: 0;
+
+}
+:root
+{
+    --color-bg :rgb(0,0,0,.25);
+    --color-body : rgb(0,0,0);
+    --color-b : rgb(255,255,255);
+    
+}
+
+body 
+{
+	background: white;
+}
+/*Estilo de todo el encabezado*/
+.main-header
+{
+    height: 4.5rem;
+    border-bottom: 1px solid #ccc;
+    background: white;
+}
+.main-menu-link
+{
+    font-size: 15px;
+    color: brown;
+    
+}
+
+.Logo
+{
+    height: 4.3em;
+    
+}
+nav
+{
+    background:white;
+    /*border-radius: 10px;*/
+    color : yellow;
+}
+
+.main-banner /*contenedor peincipal de la img*/
+{
+ height: 650px;
+ background:  rgb(0,3,1);  
+ color: white;
+ position: relative;
+    
+}
+.main-banner-img
+{
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    top: 0;
+    left: 0;
+    object-fit: cover;/* para qie la imagen ocupe todo el espacio*/
+    opacity: 0.5;        
+}
+
+.main-banner 
+{
+    font-family: 'Teko', sans-serif;    
+    font-size: 60px;
+    
+
+}
+
+/*TITULOS*/
+
+ .main-banner tituloN1
+{
+    position: relative;
+    top: 25%;
+  opacity: 0.7;
+    
+}
+ .main-banner SN1
+{
+  position : relative;
+  top:25%;
+  text-align: center;
+  font-size: 125px;
+  margin-left: 20px ;
+  padding: 3% 0;
+  width: 60%;
+  opacity: 0.8
+ 
+}
+.main-banner SN2
+{
+  position : relative;
+  top:25%;
+ 
+  font-size: 50px;
+    
+  margin-left: 50%;
+  padding: 3% 0;
+  width: 60%;
+   
+ 
+}
+.titulo2
+{
+  
+  border-bottom: 3px solid white;
+  padding: 5px;
+  font-size: 24px;
+   
+   
+}
+.icon-circle-down
+{
+    position: relative;
+    top: 195px;
+    margin-left: 48%;
+    color: white;
+}
+
+/* FIN DE TITULOS*/
+
+.main-noticias {
+  text-align: center;
+  font-family: 'Teko', sans-serif;
+  background: white;    
+  margin: 0 auto;
+  padding: 5% 0;
+  width: 60%;
+  height: 400px;
+  font-size: 40px;
+    
+-webkit-box-shadow: 5px 32px 123px -12px rgba(0,0,0,0.75);
+	-moz-box-shadow:5px 32px 123px -12px rgba(0,0,0,0.75); 
+        box-shadow: 5px 32px 123px -12px rgba(0,0,0,0.75);    
+    
+}
+ 
+
+.btn_conoce {
+position: relative;    
+  background-color:  #f63c3c;
+  border: none;
+  padding: 10px 15px;
+  color: white;
+  cursor: pointer;
+ border: 2px dashed #226fbe;
+ margin-left: 45%;    
+
+}
+.main-galeria-fotos {
+  height: 465px;
+  font-family: 'Teko', sans-serif;    
+  font-size: 30px;
+  letter-spacing: 2px;
+  text-align: center; 
+  padding: 1px;
+  margin: 0;
+  
+  background: rgb(50,50,50);
+  float: left;/*Noolvidar para alinear  izq y der */
+ }
+.main-galeria-video {
+   height: 465px;
+   font-family: 'Teko', sans-serif;
+   font-size: 30px;
+   letter-spacing: 2px;
+   text-align: center;
+    margin: 0; 
+    padding: 1px;
+    color:transparent;
+    background: rgb(50,50,50);
+    float: right;
+    
+}
+seccion
+{
+    height: 40px;
+    color: white;
+    text-align: center;
+    background:trasnparent;
+    text-transform: uppercase;
+    font-style:oblique; 
+    font-size: 30px;
+}
+.ed-item-grid
+{
+    padding: 5%;
+    background: white;
+    
+}
+
+    
+.grid-item
+{
+    -webkit-box-shadow: 5px 32px 123px -12px rgba(0,0,0,0.75);
+	-moz-box-shadow:5px 32px 123px -12px rgba(0,0,0,0.75); 
+        box-shadow: 5px 32px 123px -12px rgba(0,0,0,0.75);
+
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+     border: 1px solid rgb(15,15,15,01);
+ 
+}
+.ed-item-titulo
+{
+    color: red;
+    background: black;
+}
+.main-section-proyectos
+{
+    background: gray;
+    padding: 2% 0;
+    text-align: center;  
+    
+}
+subtitulo
+{
+    position: relative;
+    top: 15px;
+    
+    font-weight: bold;
+    color: black;
+    font-family: 'Teko', sans-serif;
+    font-size: 60px;
+    
+}
+p
+{
+    position: relative;
+    top:5px;
+    padding: 40px;
+   font-family: 'Fira Sans', sans-serif;
+    color: dimgray;
+    font-size: 20px;
+}
+.icon-users
+{
+    position: relative;
+    font-size: 40px;
+    top: 25px;
+    padding: 10px;
+    color: rgb(1,1,1,.5)
+}
+
+.main-section-social
+{
+    position: relative;
+    
+    background: rgb(1,1,21,0.1);
+    height: 460px;
+    font-size: 120px;
+    text-align: center;
+}
+.main-section-mapa
+{
+    height: 400px;
+    background: black;
+    text-align: center;
+}
+
+.ed-item-mapa
+{
+    
+    margin-top: 4%;
+    margin-left: 20%;
+    height: 100px;
+    width: 100px;
+    background: red;
+    
+}
+.ed-item-direccion
+{
+    
+    margin-top: 4%;
+    margin-left: 20%;
+    height: 240px;
+    width: 320px;
+    background: red;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Teko', sans-serif;
+    
+}
+/*TODA LA CONFIGURACION DEL MAPA DE NAVEGACION EN ORDEN DESCENDENTE*/
+.main-navegacion {
+  font-family: 'Teko', sans-serif;
+  margin: 0 auto;
+  padding: 0 0 3%;
+  width: 65%;
+}
+
+.main-navegacion h5 {
+  padding: 0.6em 0;
+  font-size: 26px;
+}
+
+.main-navegacion ul {
+  font-size: 16px;
+  display: inline-block;
+  padding-top: 5px;
+}
+
+.main-navegacion div hr {
+  border-top: 6px solid black;
+}
+
+.main-navegacion a {
+  color: black;
+  padding: 0;
+  margin: 0;
+}
+
+.main-navegacion li {
+  list-style: none;
+  padding: 1% 0;
+}
+
+
+.ed-item-aimc{
+  float: left;
+  margin: 3%;
+  width: 25%;
+}
+
+.ed-item-proyectos {
+  float: left;
+  margin: 3% 0;
+  width: 30%;
+}
+
+.ed-item-noticias {
+  float: left;
+  margin: 3%;
+  width: 25%;
+}
+
+/**container del footer/

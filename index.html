@@ -1,0 +1,237 @@
+<!-- 
+Resoluciones de Pantalla
+s (small: 320px), m (medium: 640px), l (large: 1024px), xl (xlarge: 1440px)
+Los anchos pueden ser de dos tipos: multiplos de 5 (5,10,15,20,25...) o fracciones de 3, 6 u 8 (1-3, 2-3, 3-3,1-6,2-6...)
+De esta manera, el ed-item <div class="ed-item s-50 m-1-3 l-75 xl-50"></div> medirá 50% de ancho desde los 320px, 33.33% (un tercio) a partir de 640px, 75% a partir de 1024px y 50% a partir de 1440px
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximun-scale=1"/>
+        <title>Asociacion de Mineros de Colombia</title>
+        
+        <!-- Estilos --> 
+        <link rel="stylesheet" href="/CSS/ed-grid.css">
+        <link rel="stylesheet" href="/CSS/estilo.css">
+        
+        <!-- fuentes --> 
+        <link href="https://fonts.googleapis.com/css?family=Black+Han+Sans" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Teko" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+      
+              <!-- fuente / Iconos  --> 
+        <link rel="stylesheet" href="/FONTS/style.css">
+    </head>
+
+    <!-- Barra de Navegación, en ella se incluye el logo y los elementos que conforman el menu -->
+
+    <!-- BODY -->
+    <body >
+        <!-- HEADER -->
+        <header class="main-header">
+            <div class="ed-container"><!-- Wrap Principal del Header-->
+                <div class="ed-item l-20 "><!-- Wrap del Logo -->
+                    <img src="/IMG/Logo.png" alt="logo" class="Logo">
+                </div>
+
+                    <nav class="ed-item l-80"><!-- Wrap del menu de navegación -->
+                        <ul class ="ed-menu m-horizontal  ">
+                    <!-- li*6>a   -->        
+                           <li class="main-menu-link"><a href="">Aliados</a></li>
+                           <li class="main-menu-link"><a href="">Proyectos</a></li>
+                           <li class="main-menu-link"><a href="">Donaciones</a></li>
+                           <li class="main-menu-link"><a href="">Noticias </a></li>
+                           <li class="main-menu-link"><a href="">Afiliaciones</a></li>
+                           <li class="main-menu-link"><a href="">Habeas-Data</a></li>
+
+                        </ul>
+                    </nav>
+             </div>
+        </header>   
+        <!-- FIN DE HEADER -->
+
+        <!-- BANNER -->
+        <div class="main-banner">
+           <img src="/IMG/banner3.png" alt="Banner1" class="main-banner-img">
+            <div class="ed-container"><!-- -->
+                   <div class="ed-item">
+                       <tituloN1> POR UNA MINERIA BIEN HECHA</tituloN1>
+                   </div>
+                   <div class="ed-item">
+                       <SN1> Permite que nosotros </SN1><br>
+                       <SN2>Te acompañemos</SN2>        
+                   </div>
+               <!-- CIRCULO  -->
+                   <div class="ed-item">
+                         <a href=""><span class="icon-circle-down"></span></a>
+                         <a href="#projects"></a>
+                   </div>
+            </div>
+       </div>
+        <!-- FIN BANNER  -->
+            
+        <!-- SECTION NOTICIAS  -->
+       <section class="main-noticias">
+            <div class="ed-container ">
+                 <div class="ed-item">
+                      <span>Enterate de las Noticias mas importantes del sector Minero</span> 
+                      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos ducimus ipsa aspernatur totam reiciendis nihil illum quis quaerat? Similique suscipit nisi quaerat, repudiandae consequuntur consectetur saepe voluptatibus autem veniam rem.</p>
+                  </div>
+                  <button class="btn_conoce"> CONOCE MAS</button>
+             </div>
+        </section>
+        <!-- FIN SECTION NOTICIAS  -->
+            
+        <!-- SECTION GALERIA DE FOTOS  -->
+        <section class="main-galeria-fotos l-50 m-2-3 s-3-6" >
+           <div class="ed-container">
+               <div class="ed-item-titulo ">
+                   <seccion>GALERIA DE FOTOGRAFIAS </seccion>
+                      <div class="ed-item-grid">
+                         <div class="grid-container grid-1234">
+                           
+                            <div class="grid-item"><img src="/IMG/banner3.png" alt="galeria3"></div>
+                            <div class="grid-item"><img src="/IMG/banner9.png" alt="galeria2"></div>
+                            <div class="grid-item"><img src="/IMG/banner10.png" alt="galeria3"></div>
+                            <div class="grid-item"><img src="/IMG/banner8.png" alt="galeria3"></div>
+                            <div class="grid-item"><img src="/IMG/banner2.png" alt="galeria3"></div>
+                            <div class="grid-item"><img src="/IMG/banner3.png" alt="galeria3"></div>
+                        </div>
+                   </div>
+               </div>
+        </div>
+      </section>
+      <!-- FIN SECTION GALERIA DE FOTOS  -->
+      
+      <!-- SECTION 3  -->
+      <section class="main-galeria-video l-50 m-1-3 s-3-6">
+            
+                  <!-- insertar video  -->
+                   <div class="ed-container">
+                   <div class="ed-item">
+                       <seccion>Galeria de videos</seccion>
+                         <div class="ed-video">
+                             <iframe width="200" height="100" src="https://www.youtube.com/embed/xuzKGHzzcDA" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                        <br>
+                    </div>
+                    <!-- Fin insertar video  -->
+               </div>
+            </section>
+      <!-- FIN SECTION 3  -->
+       <!-- SECTION PROYECTOS  -->
+            <section class="main-section-proyectos ">
+               <div class="ed-container ">
+                   <div class="ed-item">
+                     <span class="titulo2">Proyectos</span>
+                         
+                   </div>
+               </div>
+            </section>
+            <!-- FIN SECTION PROYECTOS  -->
+           
+             <!-- SECTION social  -->
+            <section class="main-section-social">
+               <div class="ed-container">
+                   <div class="ed-item ">
+                       <subtitulo>SOLO MANTENTE CONECTADO</subtitulo>
+                       <a href=""><span class="icon-users"></span></a>
+                         <a href="#projects"></a>
+                     <br>
+                      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora voluptas debitis in repellendus quam, minus temporibus iusto voluptatibus aperiam recusandae nam quasi ex optio numquam repudiandae ratione. Expedita, porro numquam.</p>
+                      
+                         <a href=""><span class="icon-facebook2"></span></a>
+                         <a href="#projects"></a>
+                         <a href=""><span class="icon-twitter"></span></a>
+                         <a href="#projects"></a>
+                         <a href=""><span class="icon-google-plus2"></span></a>
+                         <a href="#projects"></a>
+                   </div>
+               </div>
+            </section>
+             <!-- FIN SECTION social  -->
+             
+             <!-- FIN SECTION MAPA  -->   
+            <section class="main-section-mapa">
+               <div class="ed-container">
+                    <div class="ed-item">
+                      <br><br>
+                       <seccion>Encuentranos </seccion> 
+                     </div>    
+                     <div class="ed-item-mapa">
+                            <iframe src="https://www.google.com/maps/d/embed?mid=1dFSRLUrp2eDPvQcbu0oIHIJ3UNqUthbd&hl=es-419" width="320" height="240"></iframe>
+                      </div>
+                   
+                   <div class="ed-item-direccion">
+                        <br><span class="icon-location2"></span> 
+                        <br><br> <span> Oficina principal </span>
+                        <br> <span> medellin  - colombia </span>
+                         <br><span> zip postal 123452 </span>
+                   </div>
+               </div>
+            </section>
+            <!-- FIN SECTION MAPA  -->    
+             <!-- SECTION SITEMAP  -->
+            <section class="main-section-sitemap">
+               <div class="ed-container">
+                   <div class="ed-item cross">      
+                   </div>
+               </div>
+            </section>
+            <!-- FIN SITE MAP  -->   
+            <div class="main-navegacion">
+                <div class="ed-container">
+                    <div class="ed-item-aimc">
+                        <h5>AIMC</h5>
+                        <hr>
+                        <ul>
+                          <li><a href="#">Acerca de Nosotros</a></li>
+                          <li><a href="#">Nuestra Misión</a></li>
+                          <li><a href="#">Filosofia</a></li>
+                          <li><a href="#">Principios</a></li>
+                          <li><a href="#">Historia</a></li>
+                          <li><a href="#">Junta Directiva</a></li>
+                        </ul>
+                      </div>
+                      <div class="ed-item-proyectos">
+                        <h5>PROYECTOS</h5>
+                        <hr>
+                        <ul>
+                          <li><a href="#">Acerca de Nosotros</a></li>
+                          <li><a href="#">Nuestra Misión</a></li>
+                          <li><a href="#">Filosofia</a></li>
+                          <li><a href="#">Principios</a></li>
+                          <li><a href="#">Historia</a></li>
+                          <li><a href="#">Junta Directiva</a></li>
+                        </ul>
+                      </div>
+                       <div class="ed-item-noticias">
+                        <h5>NOTICIAS</h5>
+                        <hr>
+                        <ul>
+                          <li><a href="#">Acerca de la Asociacións</a></li>
+                          <li><a href="#">Mineria en Antioquia</a></li>
+                          <li><a href="#">Mineria en Colombia</a></li>
+                          <li><a href="#">Principios</a></li>
+                          <li><a href="#">Historia</a></li>
+                          <li><a href="#">Junta Directiva</a></li>
+                        </ul>
+                   </div>
+              </div>
+        </div>  
+        <footer>
+           <div class="ed-grid-container">
+               <div class="ed-item">
+                   PowerBy 
+                   B Salleg. Soluciones Digitales CopyRight 2018
+               </div>
+           </div>
+            
+        </footer>    
+                           
+                              
+    </body>
+</html>
